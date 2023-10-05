@@ -1,0 +1,90 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: "Roboto Mono", monospace;
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 768px) { /* Medium-sized screens and larger */
+  .custom-vh-md-100 {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .project-info {
+    font-size: 22px; 
+  }
+  h5{
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-info {
+    font-size: 16px; 
+  }
+  h4{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-info {
+    font-size: 16px; 
+  }
+  h4{
+    font-size: 18px;
+  }
+}
+
+
+.bg-brand-color {
+    background-color: #60a6b3 !important;
+}
+
+.bg-brand-secondary{
+  background-color: #7884dc;
+}
+
+.bg-brand-secondary-2{
+  background-color: #1F4172;
+}
+
+
+.text-brand{
+  color: #1F4172;
+}
+
+.navbar{
+	font-family: "Roboto Mono", monospace;
+}
+
+a img{
+  width: 40px;
+}
+
+#languages img, #tool img{
+  width: 120px;
+}
+
+#card-content {
+    opacity: 0;
+    padding: 1rem;
+    background-color: #1F4172;
+    color: white;
+    transition: opacity 1s  ease-in-out; /* Add a smooth transition for opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .card:hover #card-content {
+    opacity: 1; /* Make it fully visible */
+  }
+
+
+
